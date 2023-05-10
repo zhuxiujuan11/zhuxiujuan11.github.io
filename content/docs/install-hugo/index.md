@@ -13,3 +13,6 @@ This theme uses [Hugo Pipes](https://gohugo.io/hugo-pipes/scss-sass/) to compile
 ```
 hugo version
 ```
+
+![Super wide](https://placekitten.com/1280/800)
+

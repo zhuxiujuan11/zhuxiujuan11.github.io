@@ -6,16 +6,16 @@
     <description>Recent content in Overview on Hugo Whisper Theme</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 28 Nov 2018 15:14:39 +1000</lastBuildDate><atom:link href="/docs/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 11 Feb 2019 19:30:08 +1000</lastBuildDate><atom:link href="/docs/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Install Hugo</title>
       <link>/docs/install-hugo/</link>
-      <pubDate>Mon, 11 Feb 2019 19:27:37 +1000</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/docs/install-hugo/</guid>
-      <description>To use this theme you will need to have Hugo installed. If you don&amp;rsquo;t already have Hugo installed please follow the official installation guide
-Check Hugo Version This theme uses Hugo Pipes to compile SCSS and minify assets. Please make sure you have the Hugo Extended version installed. If you are not using the extended version this theme will not not compile.
-hugo version </description>
+      <description>Prerequisites Before you begin building websites, you must:
+Install Hugo (the extended version) Install Git Some Hugo themes use Hugo Pipes to compile SCSS and minify assets. Please make sure you have the Hugo Extended version installed. If you are not using the extended version, some themes will not not compile.
+Install Hugo Hugo is available for a variety of operating systems and architectures. Visit the latest release page, and scroll down to the Assets section to download the version you need.</description>
     </item>
     
     <item>

@@ -103,7 +103,7 @@
     </li>
     
     <li class="">
-      <a href="/docs/deploy/">Deploy Hugo site to GitHub Pages</a>
+      <a href="/docs/deploy/">Deploy Hugo to GitHub Pages</a>
     </li>
     
   </ul>
@@ -138,7 +138,7 @@
 <h3 id="choose-a-theme">Choose a theme</h3>
 <ol>
 <li>
-<p>In <a href="https://themes.gohugo.io/">Hugo Themes</a> page, choose a theme you want.</p>
+<p>In  the <a href="https://themes.gohugo.io/">Hugo Themes</a> page, choose a theme you want.</p>
 </li>
 <li>
 <p>Install the theme and customize the website as the instructions on its page.</p>
@@ -157,16 +157,19 @@
 </ol>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">git init
 </span></span></code></pre></div><ol start="3">
-<li>Clone the Ananke theme into the themes directory, adding it to your project as a Git submodule.</li>
+<li>Clone the Whisper theme into the themes directory, adding it to your project as a Git submodule.</li>
 </ol>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">git clone https://github.com/zerostaticthemes/hugo-whisper-theme.git themes/hugo-whisper-theme
 </span></span></code></pre></div><h4 id="install-from-zip-file">Install from .zip file</h4>
 <p>You can download the .zip file located <a href="https://github.com/JugglerX/hugo-whisper-theme/archive/master.zip">here</a>.</p>
-<p>Extract the downloaded .zip inside the <code>themes</code> folder. Rename the extracted folder from <code>hugo-whisper-theme-master</code> -&gt; <code>hugo-whisper-theme</code>. You should end up with the following folder structure <code>mynewsite/themes/hugo-whisper-theme</code></p>
+<ol>
+<li>Extract the downloaded .zip inside the <code>themes</code> folder.</li>
+<li>Rename the extracted folder from <code>hugo-whisper-theme-master</code> -&gt; <code>hugo-whisper-theme</code>. You should end up with the following folder structure <code>mynewsite/themes/hugo-whisper-theme</code></li>
+</ol>
 <h2 id="add-your-content">Add your content</h2>
 <p>The fastest way to get started is to copy the example content of the theme, and modify the included <code>config.toml</code></p>
 <h3 id="copy-examplesite-contents">Copy exampleSite contents</h3>
-<p>Copy the entire contents of the <code>exampleSite</code> folder to the root folder of your Hugo site <code>mynewsite</code>.</p>
+<p>Copy the entire contents of the <code>hugo-whisper-theme/exampleSite</code> folder to the root folder of your Hugo site <code>mynewsite</code>.</p>
 <h3 id="update-configtoml">Update config.toml</h3>
 <p>After you copy the <code>config.toml</code> into the root folder of your Hugo site, you will need to update the <code>baseURL</code>, <code>themesDir</code> and <code>theme</code> values in the <code>config.toml</code> as below.</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">baseURL = &#34;/&#34;
@@ -179,7 +182,7 @@
 </ol>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">hugo new docs/my-first-post.md
 </span></span></code></pre></div><blockquote>
-<p><img src="image/attention.svg" alt="attention"> This theme generates documentation from markdown files located in <code>content/docs</code>. Do not put markdown files under other paths.</p>
+<p><img src="image/attention.svg" alt="attention"> The Whisper theme generates documentation from markdown files located in <code>content/docs</code>. Do not put markdown files under other paths.</p>
 </blockquote>
 <ol start="2">
 <li>Open <code>my-first-post.md</code> with your editor.</li>
@@ -197,7 +200,7 @@
 </ol>
 <h2 id="publish-the-site">Publish the site</h2>
 <p>When you publish your site, Hugo creates the entire static site in the <code>public</code> directory in the root of your project. This includes the HTML files, and assets such as images, CSS files, and JavaScript files.</p>
-<p>In this step, you will publish your site in local, not deploy it.</p>
+<p>In this step, you will publish your site locally, not deploy it.</p>
 <p>After installing the theme for the first time, generate the Hugo site.</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">hugo
 </span></span></code></pre></div><ol>
@@ -209,7 +212,7 @@
 <p>Now enter <a href="http://localhost:1313"><code>localhost:1313</code></a> in the address bar of your browser to view the site locally.</p>
 </li>
 <li>
-<p>Keep the development server running as you continue to add and change content. You can see the changes in real time.</p>
+<p>Keep the development server running as you continue to add and change content. You can see the changes in real-time.</p>
 </li>
 <li>
 <p>Press <code>Ctrl + C</code> to stop Hugo’s development server.</p>

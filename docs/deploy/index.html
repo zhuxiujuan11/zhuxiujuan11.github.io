@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <title>Deploy Hugo site to GitHub Pages - Hugo Whisper Theme</title>
+  <title>Deploy Hugo to GitHub Pages - Hugo Whisper Theme</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   
   <link rel="icon" href="/favicon.png">
@@ -103,7 +103,7 @@
     </li>
     
     <li class="active ">
-      <a href="/docs/deploy/">Deploy Hugo site to GitHub Pages</a>
+      <a href="/docs/deploy/">Deploy Hugo to GitHub Pages</a>
     </li>
     
   </ul>
@@ -113,26 +113,26 @@
         </div>
         <div class="col-12 col-md-9">
           
-<h1 class="title">Deploy Hugo site to GitHub Pages</h1>
+<h1 class="title">Deploy Hugo to GitHub Pages</h1>
 <div class="content ">
-  <p>As mentioned before, Hugo creates the entire static site in the <code>public</code> directory, so you only need to push the files under public directory to the GitHub repository to get them published on GitHub Pages, here is how:</p>
+  <p>As mentioned before, Hugo creates the entire static site in the <code>public</code> directory, so you only need to push the files under the public directory to the GitHub repository to get them published on GitHub Pages, here is how:</p>
 <ol>
-<li>When you finish the content editing in <code>docs</code>, run <code>hugo</code> to generate the latest Hugo site.</li>
+<li>When you finish the content editing in <code>content/docs</code>, run <code>hugo</code> to generate the latest Hugo site.</li>
 </ol>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">hugo
 </span></span></code></pre></div><ol start="2">
 <li>
-<p>Copy files in the <code>public</code> directory to the local <code>username.github.io</code> directory created in the last section - <a href="../github-page">Create a GitHub page</a>. The original index.html file can be replaced.</p>
+<p>Copy all files in the <code>public</code> directory to the local <code>username.github.io</code> directory created in the last section - <a href="../github-page">Create a GitHub Page</a>. The original index.html file can be replaced.</p>
 </li>
 <li>
 <p>Add, commit, and push your changes.</p>
 </li>
 </ol>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">git add --all
-</span></span><span class="line"><span class="cl">git commit -m &#34;commit description&#34;
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">git add .
+</span></span><span class="line"><span class="cl">git commit -m &#34;commit description&#34; 
 </span></span><span class="line"><span class="cl">git push origin main
 </span></span></code></pre></div><ol start="4">
-<li>Wait a few seconds for pages build and deployment, view your GitHub page, your site is created!</li>
+<li>Wait a few seconds for pages build and deployment, and view your GitHub Page. Your site is created!</li>
 </ol>
 <p><img src="img/homepage.png" alt="homepage"></p>
 

@@ -16,7 +16,7 @@
       <description>Prerequisites Before you begin this tutorial, you must:
 Install Hugo (the extended version) Install Git Make sure you have the Hugo Extended version installed. If you are not using the extended version, some themes will not not compile.
 Install Hugo Hugo is available for a variety of operating systems and architectures. Visit the latest release page, and scroll down to the Assets section to download the version you need.
-In this section, we take the Windows version for example.</description>
+In this section, take the Windows version for example.</description>
     </item>
     
     <item>
@@ -43,13 +43,13 @@ Head over to GitHub and create a new public repository named username.github.io,
     </item>
     
     <item>
-      <title>Deploy Hugo site to GitHub Pages</title>
+      <title>Deploy Hugo to GitHub Pages</title>
       <link>/docs/deploy/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/docs/deploy/</guid>
-      <description>As mentioned before, Hugo creates the entire static site in the public directory, so you only need to push the files under public directory to the GitHub repository to get them published on GitHub Pages, here is how:
-When you finish the content editing in docs, run hugo to generate the latest Hugo site. hugo Copy files in the public directory to the local username.github.io directory created in the last section - Create a GitHub page.</description>
+      <description>As mentioned before, Hugo creates the entire static site in the public directory, so you only need to push the files under the public directory to the GitHub repository to get them published on GitHub Pages, here is how:
+When you finish the content editing in content/docs, run hugo to generate the latest Hugo site. hugo Copy all files in the public directory to the local username.github.io directory created in the last section - Create a GitHub Page.</description>
     </item>
     
   </channel>

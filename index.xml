@@ -6,56 +6,50 @@
     <description>Recent content in Zhuxiujuan Docs on Hugo Whisper Theme</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 11 Feb 2019 19:30:08 +1000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 10 May 2023 10:32:12 +0800</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Install Hugo</title>
       <link>/docs/install-hugo/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/docs/install-hugo/</guid>
-      <description>Prerequisites Before you begin building websites, you must:
-Install Hugo (the extended version) Install Git Some Hugo themes use Hugo Pipes to compile SCSS and minify assets. Please make sure you have the Hugo Extended version installed. If you are not using the extended version, some themes will not not compile.
-Install Hugo Hugo is available for a variety of operating systems and architectures. Visit the latest release page, and scroll down to the Assets section to download the version you need.</description>
+      <description>Prerequisites Before you begin this tutorial, you must:
+Install Hugo (the extended version) Install Git Make sure you have the Hugo Extended version installed. If you are not using the extended version, some themes will not not compile.
+Install Hugo Hugo is available for a variety of operating systems and architectures. Visit the latest release page, and scroll down to the Assets section to download the version you need.
+In this section, we take the Windows version for example.</description>
     </item>
     
     <item>
-      <title>Install Theme</title>
-      <link>/docs/install-theme/</link>
-      <pubDate>Mon, 11 Feb 2019 19:27:37 +1000</pubDate>
+      <title>Create a Hugo site</title>
+      <link>/docs/create-site/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/docs/install-theme/</guid>
-      <description>Create a new Hugo site hugo new site mynewsite This will create a fresh Hugo site in the folder mynewsite.
-Install theme Copy or git clone this theme into the sites themes folder mynewsite/themes
-Install with Git cd mynewsite cd themes git clone https://github.com/jugglerx/hugo-whisper-theme.git Install from .zip file You can download the .zip file located here https://github.com/JugglerX/hugo-whisper-theme/archive/master.zip.
-Extract the downloaded .zip inside the themes folder. Rename the extracted folder from hugo-whisper-theme-master -&amp;gt; hugo-whisper-theme.</description>
+      <guid>/docs/create-site/</guid>
+      <description>In the following steps, various command lines should be executed. Please notice that:
+If you are a Windows user:
+Do not use the Command Prompt. Do not use Windows PowerShell. Run these commands from PowerShell or a Linux terminal such as WSL or Git Bash. PowerShell and Windows PowerShell are different applications.
+Create your site Open a terminal, such as Git Bash. Switch to a local directory where you want to create the Hugo site.</description>
     </item>
     
     <item>
-      <title>Configuration</title>
-      <link>/docs/configure/</link>
-      <pubDate>Mon, 11 Feb 2019 19:30:08 +1000</pubDate>
+      <title>Create a GitHub Page</title>
+      <link>/docs/github-page/</link>
+      <pubDate>Wed, 10 May 2023 10:32:12 +0800</pubDate>
       
-      <guid>/docs/configure/</guid>
-      <description>Syntax highlighting and menus can be configured via &lt;code&gt;config.toml&lt;/code&gt;.</description>
+      <guid>/docs/github-page/</guid>
+      <description>GitHub Pages is designed to host your personal, organization, or project pages from a GitHub repository. Just edit and push, your changes are live.
+Sign in to your GitHub account.
+Head over to GitHub and create a new public repository named username.github.io, where username is your username (or organization name) on GitHub. If the first part of the repository doesn’t exactly match your username, it won&amp;rsquo;t work, so make sure to get it right.</description>
     </item>
     
     <item>
-      <title>Specimen</title>
-      <link>/docs/specimen/</link>
-      <pubDate>Mon, 11 Feb 2019 19:27:37 +1000</pubDate>
+      <title>Deploy Hugo site to GitHub Pages</title>
+      <link>/docs/deploy/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/docs/specimen/</guid>
-      <description>Markdown Test Page Headings Paragraphs Blockquotes Lists Horizontal rule Table Code Inline elements Headings Heading one Sint sit cillum pariatur eiusmod nulla pariatur ipsum. Sit laborum anim qui mollit tempor pariatur nisi minim dolor. Aliquip et adipisicing sit sit fugiat commodo id sunt. Nostrud enim ad commodo incididunt cupidatat in ullamco ullamco Lorem cupidatat velit enim et Lorem.
-Heading two Aute officia nulla deserunt do deserunt cillum velit magna. Officia veniam culpa anim minim dolore labore pariatur voluptate id ad est duis quis velit dolor pariatur enim.</description>
-    </item>
-    
-    <item>
-      <title>Hugo Whisper</title>
-      <link>/docs/example/</link>
-      <pubDate>Mon, 11 Feb 2019 19:27:37 +1000</pubDate>
-      
-      <guid>/docs/example/</guid>
-      <description>&lt;p&gt;Whisper is a minimal documentation theme built for Hugo. The design &amp;amp; functionality is intentionally minimal.&lt;/p&gt;</description>
+      <guid>/docs/deploy/</guid>
+      <description>As mentioned before, Hugo creates the entire static site in the public directory, so you only need to push the files under public directory to the GitHub repository to get them published on GitHub Pages, here is how:
+When you finish the content editing in docs, run hugo to generate the latest Hugo site. hugo Copy files in the public directory to the local username.github.io directory created in the last section - Create a GitHub page.</description>
     </item>
     
   </channel>
